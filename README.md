@@ -23,6 +23,7 @@ A **Bash script** to explore `iptables` rules interactively in the terminal with
 ```bash
 sudo apt install fzf
 ```
+---
 
 ## Installation
 
@@ -39,6 +40,9 @@ chmod +x iptables-view.sh
 ```bash
 sudo ./iptables-view.sh
 ``` 
+
+---
+
 ## Usage
 
 ### 1. Select a table (**filter**, **nat**, **mangle**, etc.)
@@ -56,6 +60,8 @@ any    any                any                -      DROP
 ```
 
 ### 4. Use ESC to go back:
+
+---
 
 ## Notes
 
