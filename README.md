@@ -6,8 +6,8 @@ A **Bash script** to explore `iptables` rules interactively in the terminal with
 
 ## Features
 
-- Browse **iptables tables** and chains interactively
-- View **rules with colored targets**:
+- Browse **iptables** tables and chains interactively
+- View rules with **colored targets**:
   - **ACCEPT** → green
   - **DROP** / **REJECT** → red
   - Others → yellow
@@ -66,5 +66,5 @@ any    any                any                -      DROP
 ## Notes
 
 * Read-only: does not modify iptables
-* Lightweight and fast, parses **iptables-save** output
+* Lightweight and fast, parses `iptables-save` output
 * Ideal for inspection and lab environments
